@@ -61,14 +61,18 @@ It provides key business insights into sales performance, profitability, custome
 * 🔴 Some sub-categories show declining sales trends
 * 🟡 Profit margins vary significantly across categories
 
-```
+---
+
 
 ## 👨‍💻 Author
 
 **Himanshu Lamba**
 Aspiring Data Analyst
 
-* 🔗 LinkedIn: https://www.linkedin.com/in/himanshu-lamba-54136833a
+🔗 LinkedIn: https://www.linkedin.com/in/himanshu-lamba-54136833a
 
----
+```
+
+
+
 
