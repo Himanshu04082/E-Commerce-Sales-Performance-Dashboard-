@@ -2,23 +2,23 @@
 
 ## 🔍 Project Overview
 
-This project presents an interactive Power BI dashboard built to analyze and visualize e-commerce sales data.
-It provides key business insights into sales performance, profitability, customer orders, and product trends.
+This project presents an interactive **Power BI dashboard** built to analyze and visualize e-commerce sales data.
+It provides key business insights into sales performance, profitability, customer behavior, and product trends.
 
 ---
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](Dashboard.png)
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze overall business performance using KPIs
-* Identify top-performing categories and regions
-* Understand product-level sales trends
-* Enable interactive filtering for better decision-making
+* Analyze overall business performance using key KPIs
+* Identify top-performing categories, regions, and products
+* Understand customer purchasing patterns
+* Enable interactive filtering for dynamic analysis
 
 ---
 
@@ -27,7 +27,7 @@ It provides key business insights into sales performance, profitability, custome
 * 💰 **Total Sales:** $2.30M
 * 📈 **Total Profit:** $286K
 * 📦 **Total Orders:** 5K
-* 💸 **Average Profit:** $57.18
+* 💸 **Average Profit per Order:** $57.18
 * 🔢 **Total Quantity Sold:** 38K
 
 ---
@@ -37,6 +37,7 @@ It provides key business insights into sales performance, profitability, custome
 * Sales & Profit analysis by **Category**
 * Regional performance insights (**West, East, Central, South**)
 * Sub-category level sales breakdown
+* Sales vs Profit comparison
 * Interactive slicers:
 
   * Order Date
@@ -48,9 +49,40 @@ It provides key business insights into sales performance, profitability, custome
 
 ## 🛠 Tools & Technologies Used
 
-* **Power BI** – Dashboard creation & visualization
+* **Power BI** – Data visualization & dashboard creation
 * **Python (Pandas)** – Data cleaning & preprocessing
-* **MySQL** – Data storage & querying
+* **SQL (MySQL)** – Data querying and analysis
+
+---
+
+## 🗄 SQL Analysis
+
+SQL was used to extract, transform, and analyze the dataset before visualization.
+
+### Key Queries:
+
+* Total Sales, Profit, and Orders calculation
+* Category-wise and Region-wise analysis
+* Sub-category performance breakdown
+* Top products and customers identification
+
+---
+
+## 🧠 Advanced SQL Analysis
+
+Advanced SQL techniques were applied to perform in-depth business analysis:
+
+* **Aggregations & KPIs** → SUM(), AVG(), COUNT(), ROUND()
+* **GROUP BY Analysis** → Category, Region, Sub-Category insights
+* **Time-Based Analysis** → Monthly & yearly trends using YEAR() and MONTH()
+* **HAVING Clause** → Identified loss-making products (Profit < 0)
+* **Top N Analysis** → Top products and customers using ORDER BY & LIMIT
+* **Derived Metrics** → Profit Margin (%) calculation
+* **Customer Analysis** → High-value customer identification
+* **Discount Impact Analysis** → Effect of discounts on profit
+* **Operational Insight** → Average delivery time using DATEDIFF()
+
+These analyses helped uncover actionable business insights and supported decision-making.
 
 ---
 
@@ -58,21 +90,17 @@ It provides key business insights into sales performance, profitability, custome
 
 * 🟢 Technology category generates the highest sales
 * 🟢 West region contributes the most revenue
-* 🔴 Some sub-categories show declining sales trends
-* 🟡 Profit margins vary significantly across categories
-
+* 🔴 Some products are consistently loss-making
+* 🟡 Discounts significantly impact profitability
+* 📦 Average delivery time provides operational insights
+  
 ---
-
 
 ## 👨‍💻 Author
 
 **Himanshu Lamba**
 Aspiring Data Analyst
 
-🔗 LinkedIn: https://www.linkedin.com/in/himanshu-lamba-54136833a
-
-```
-
-
-
-
+* 🔗 LinkedIn: https://www.linkedin.com/in/himanshu-lamba-54136833a
+  
+---
